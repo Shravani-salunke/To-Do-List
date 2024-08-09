@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+ 
+}
+code{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    width: 380px;
+    margin: auto;
+    padding: 11px;
+    background-color: white;
+    border: 3px solid black;
+    color:black;
+    text-align: center;
+    margin-top: 44px;
+    border-radius: 10px;
+}
+.container input{
+    width: 70%;
+    padding: 9px;
+    border:none;
+    font-size: 22px;
+    border-radius: 7px;
+    border: 2px solid black;
+   
+    
+}
+.container button{
+    width: 70px;
+    height: 44px;
+    border: none;
+    background-color:rgb(207, 26, 26);
+    color:white;
+    font-size: 20px;
+    margin-left: 6px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.taskData{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 14px;
+}
+.taskData p{
+    font-size: 23px;
+    margin-left: 8px;
+}
+.taskData #deleteIcon{
+    position: relative;
+    left: -9%;
+    top: 28px;
+    cursor: pointer;
+    font-size: 21px;
+    color:black;
+ 
+}
